@@ -3,9 +3,6 @@ using System;
 class RandomGenerator{
     private static void Main(){
         Console.WriteLine(Random());
-        Console.WriteLine(Random());
-        Console.WriteLine(Random());
-        Console.WriteLine(Random());
     }
 
     static long Random(){
@@ -18,5 +15,4 @@ class RandomGenerator{
         x ^= x >> 27;
         return x * 2685821657736338717;
     }
-
 }
